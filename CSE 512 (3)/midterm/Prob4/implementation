@@ -1,0 +1,28 @@
+template <class T>
+void List<T>:: append_back(const List<T>& 1st)
+{
+	if(1st.empty()) { cout << "This list is empty"; }
+
+	iterator itr = 1st.begin();
+	iterator stop = 1st.end();
+	Link<T>* newlink; //could this be last link?
+
+	while( itr != stop ){
+		newlink = new Link<T>(*itr);
+
+		newlink->prevLink = newlink;
+
+		if( lastLink == 0 )
+		{
+			lastLink = newlink;
+			lastLink->nextLink = lastLink;
+		}
+		else
+		{
+			lastLink->nextLink = newlink;
+			lastLink = newlink;
+		}
+		++itr;
+	}
+	mySize++;
+}

@@ -1,0 +1,103 @@
+Script started on Wed 12 Oct 2011 10:44:30 AM PDT
+leingod@leingod-Satellite-L505D: ~/Desktop/CSE 330/Homework/hw1
+leingod@leingod-Satellite-L505D:~/Desktop/CSE 330/Homework/hw1$ g++ hw1.cpp
+leingod@leingod-Satellite-L505D: ~/Desktop/CSE 330/Homework/hw1
+leingod@leingod-Satellite-L505D:~/Desktop/CSE 330/Homework/hw1$ ./a.out
+Place coin 1 where?: 1
+Place coin 2 where?: 3
+Place coin 3 where?: 1
+That is an invalid coin placement!
+Place coin 3 where?: 6
+Place coin 4 where?: 7
+Place coin 5 where?: 8
+
+  1   2   3   4   5   6   7   8   9  10  11  12  13  14  15 
+ [@] [ ] [@] [ ] [ ] [@] [@] [@] [ ] [ ] [ ] [ ] [ ] [ ] [ ]
+Player A turn 
+Which position would you like to move: 8
+Now which position do you want to move to: 15
+
+  1   2   3   4   5   6   7   8   9  10  11  12  13  14  15 
+ [@] [ ] [@] [ ] [ ] [@] [@] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [@]
+Player B turn 
+Which position would you like to move: 7
+Now which position do you want to move to: 14
+
+  1   2   3   4   5   6   7   8   9  10  11  12  13  14  15 
+ [@] [ ] [@] [ ] [ ] [@] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [@] [@]
+Player A turn 
+Which position would you like to move: 6
+Now which position do you want to move to: 14
+!!!!!!!!!!!!!!!!!::::::::Invalid move::::::::::!!!!!!!!!!!!!!!
+
+  1   2   3   4   5   6   7   8   9  10  11  12  13  14  15 
+ [@] [ ] [@] [ ] [ ] [@] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [@] [@]
+Player B turn 
+Which position would you like to move: 6
+Now which position do you want to move to: 13
+
+  1   2   3   4   5   6   7   8   9  10  11  12  13  14  15 
+ [@] [ ] [@] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [@] [@] [@]
+Player A turn 
+Which position would you like to move: 3
+Now which position do you want to move to: 12
+
+  1   2   3   4   5   6   7   8   9  10  11  12  13  14  15 
+ [@] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [@] [@] [@] [@]
+Player B turn 
+Which position would you like to move: 1
+Now which position do you want to move to: 11
+
+  1   2   3   4   5   6   7   8   9  10  11  12  13  14  15 
+ [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [@] [@] [@] [@] [@]
+Player B wins!!!!!!!!!!
+
+]0;leingod@leingod-Satellite-L505D: ~/Desktop/CSE 330/Homework/hw1leingod@leingod-Satellite-L505D:~/Desktop/CSE 330/Homework/hw1$ ./a.out
+Place coin 1 where?: 5
+Place coin 2 where?: 2
+Place coin 3 where?: 4
+Place coin 4 where?: 15
+Place coin 5 where?: 16
+That is an invalid coin placement!
+Place coin 5 where?: 14
+
+  1   2   3   4   5   6   7   8   9  10  11  12  13  14  15 
+ [ ] [@] [ ] [@] [@] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [@] [@]
+Player A turn 
+Which position would you like to move: 0
+Now which position do you want to move to: 11
+!!!!!!!!!!!!!!!!!::::::::Invalid move::::::::::!!!!!!!!!!!!!!!
+
+  1   2   3   4   5   6   7   8   9  10  11  12  13  14  15 
+ [ ] [@] [ ] [@] [@] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [@] [@]
+Player B turn 
+Which position would you like to move: 2
+Now which position do you want to move to: 13
+!!!!!!!!!!!!!!!!!::::::::Invalid move::::::::::!!!!!!!!!!!!!!!
+
+  1   2   3   4   5   6   7   8   9  10  11  12  13  14  15 
+ [ ] [@] [ ] [@] [@] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [@] [@]
+Player A turn 
+Which position would you like to move: 5
+Now which position do you want to move to: 13
+
+  1   2   3   4   5   6   7   8   9  10  11  12  13  14  15 
+ [ ] [@] [ ] [@] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [@] [@] [@]
+Player B turn 
+Which position would you like to move: 4
+Now which position do you want to move to: 12
+
+  1   2   3   4   5   6   7   8   9  10  11  12  13  14  15 
+ [ ] [@] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [@] [@] [@] [@]
+Player A turn 
+Which position would you like to move: 2
+Now which position do you want to move to: 11
+
+  1   2   3   4   5   6   7   8   9  10  11  12  13  14  15 
+ [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [@] [@] [@] [@] [@]
+Player A wins!!!!!!!!!!
+
+leingod@leingod-Satellite-L505D: ~/Desktop/CSE 330/Homework/hw1
+leingod@leingod-Satellite-L505D:~/Desktop/CSE 330/Homework/hw1$ exit
+
+Script done on Wed 12 Oct 2011 10:47:08 AM PDT

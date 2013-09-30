@@ -1,0 +1,16 @@
+Script started on Wed 19 Oct 2011 02:35:26 PM PDT
+]0;crguerre@jb358-25:/students/csci/crguerre/Documents/CSE 330/Labs330/Lab3[?1034h[crguerre@jb358-25 Lab3]$ g++ VectorMain.cpp 
+VectorMain.cpp: In function ‘void show(const Vector<char>&)’:
+VectorMain.cpp:13:14: error: passing ‘const Vector<char>’ as ‘this’ argument of ‘T& Vector<T>::operator[](unsigned int) [with T = char]’ discards qualifiers [-fpermissive]
+VectorMain.cpp: In function ‘int main()’:
+VectorMain.cpp:86:22: error: invalid conversion from ‘int’ to ‘char*’ [-fpermissive]
+Vector.h:89:6: error:   initializing argument 1 of ‘void Vector<T>::erase(Vector<T>::iterator) [with T = char, Vector<T>::iterator = char*]’ [-fpermissive]
+VectorMain.cpp:125:29: error: invalid conversion from ‘int’ to ‘char*’ [-fpermissive]
+Vector.h:70:6: error:   initializing argument 1 of ‘void Vector<T>::insert(Vector<T>::iterator, T) [with T = char, Vector<T>::iterator = char*]’ [-fpermissive]
+In file included from VectorMain.cpp:2:0:
+Vector.h: In member function ‘void Vector<T>::insert(Vector<T>::iterator, T) [with T = char, Vector<T>::iterator = char*]’:
+VectorMain.cpp:125:29:   instantiated from here
+Vector.h:72:2: error: ISO C++ forbids comparison between pointer and integer [-fpermissive]
+]0;crguerre@jb358-25:/students/csci/crguerre/Documents/CSE 330/Labs330/Lab3[crguerre@jb358-25 Lab3]$ exit
+
+Script done on Wed 19 Oct 2011 02:35:38 PM PDT

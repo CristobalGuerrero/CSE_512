@@ -1,0 +1,13 @@
+Script started on Wed 12 Oct 2011 11:20:00 AM PDT
+leingod@leingod-Satellite-L505D: ~/Desktop/CSE 330/Labs330/Lab2
+leingod@leingod-Satellite-L505D:~/Desktop/CSE 330/Labs330/Lab2$ g++ Vector.cpp
+leingod@leingod-Satellite-L505D: ~/Desktop/CSE 330/Labs330/Lab2
+leingod@leingod-Satellite-L505D:~/Desktop/CSE 330/Labs330/Lab2$ g++ Vector.cpp 
+leingod@leingod-Satellite-L505D:~/Desktop/CSE 330/Labs330/Lab2$ ./a.out
+Integer: 12
+... push_back with resize ...
+Segmentation fault
+leingod@leingod-Satellite-L505D: ~/Desktop/CSE 330/Labs330/Lab2
+leingod@leingod-Satellite-L505D:~/Desktop/CSE 330/Labs330/Lab2$ exit
+
+Script done on Wed 12 Oct 2011 11:20:21 AM PDT

@@ -1,0 +1,15 @@
+#include <iostream>
+#include <string>
+#include <stack>
+
+using namespace std;
+
+
+int main(){
+string input;
+cout << "Enter in a infix expression: ";
+cin >> input;
+
+
+return 0;
+}

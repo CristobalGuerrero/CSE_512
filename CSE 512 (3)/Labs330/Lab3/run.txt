@@ -1,0 +1,40 @@
+Script started on Wed 12 Oct 2011 02:24:20 PM PDT
+crguerre@jb358-28:/students/csci/crguerre/Documents/CSE 330/Labs330/Lab3
+crguerre@jb358-28 Lab3]$ g++ Vector.cpp
+crguerre@jb358-28:/students/csci/crguerre/Documents/CSE 330/Labs330/Lab3
+crguerre@jb358-28 Lab3]$ ./a.out
+Integer: 1
+... plain push_back ...
+
+Gets hereInteger: 5
+... plain push_back ...
+
+Gets hereInteger: 8
+... plain push_back ...
+
+Gets hereInteger: 9
+... plain push_back ...
+
+Gets hereInteger: 6
+... plain push_back ...
+
+Gets here
+v1: 1 5 8 9 6 
+The vector is full
+
+Integer: 4
+... push_back with resize ...
+
+Integer: 7
+... plain push_back ...
+
+Integer: 5
+... plain push_back ...
+
+Vector with additional elements:
+
+v1: 1 5 8 9 6 4 7 5 
+crguerre@jb358-28:/students/csci/crguerre/Documents/CSE 330/Labs330/Lab3
+crguerre@jb358-28 Lab3]$ exit
+
+Script done on Wed 12 Oct 2011 02:24:47 PM PDT

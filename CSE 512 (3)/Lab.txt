@@ -1,0 +1,15 @@
+Script started on Wed 05 Oct 2011 11:00:26 AM PDT
+leingod@leingod-Satellite-L505D: ~/Desktop/leingod@leingod-Satellite-L505D:~/Desktop$ g++ Lab1.cpp
+~/Desktop/leingod@leingod-Satellite-L505D: '/home/leingod/Desktop/a.out'
+Enter in a infix expression: a+b-c+2/5*7
+This is your infix expression: a+b-c+2/5*7
+This is your postfix expression: ab+c-2+5/7*
+Enter in a infix expression: (a+b)/(c+d)
+This is your infix expression: (a+b)/(c+d)
+This is your postfix expression: ab+cd+/
+Enter in a infix expression: (1-2)/(3-4)*a*b/d
+This is your infix expression: (1-2)/(3-4)*a*b/d
+This is your postfix expression: 12-34-/a*b*d/
+leingod@leingod-Satellite-L505D: ~/Desktop/leingod@leingod-Satellite-L505D:~/Desktop$ exit
+
+Script done on Wed 05 Oct 2011 11:03:18 AM PDT

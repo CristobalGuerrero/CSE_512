@@ -1,0 +1,36 @@
+#include "List.h"
+#include "SelfOrganizingList.h"
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	SelfOrganizingList<int> orglst;
+
+	//value i is in ith position;
+	for(int i = 1; i <= 5; i++)
+		orglst.push_back(i);
+
+	//30 values to request;
+	int requestvals[] =  //{ 7,4,4,7,3,7,8,6,4,3,4,3,5,9,5,4,2,4,5,7,6,6,7,4,2,4,7,4,7,6 };//{5,4,3,2,1};
+
+	int reqval, nocomps;
+	int sum_plain_req = 0;
+	int sum_org_req = 0;
+
+	for ( int i = 0; i < 5; i++ )
+	{
+		orglst.print();
+		reqval = requestvals[i];
+		sum_plain_req += reqval; //vecause value is originally in position i;
+		nocomps = 0;
+		orglst.include(reqval,nocomps);
+		sum_org_req += nocomps;
+	}
+
+	cout << endl << endl;
+	cout << "Comps of plain linked list: " << sum_plain_req << endl;
+	cout << "Comps of self-organizing list: " << sum_org_req << endl;
+	cout << endl << endl;
+	return 0;
+}
